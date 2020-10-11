@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  min-height: 80px;
+  width: 100%;
+  background-color: #00f5fd;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  position: relative;
+  font-size: 3rem;
+  margin-left: 80px;
+  color: olivegreen;
+}
+
+header nav {
+  margin-right: 40px;
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: olivergreen;
+  transition: 0.2s;
+}
+
+header nav a:hover {
+  color: white;
+}
+
+.section_fst {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+}
+
+.section_fst h1 {
+  position: absolute;
+  top: 293px;
+  left: 144px;
+  font-size: 4rem;
+}
+
+.section_fst p {
+  position: absolute;
+  top: 350px;
+  left: 144px;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
